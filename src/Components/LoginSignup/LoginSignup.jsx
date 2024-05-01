@@ -16,6 +16,7 @@ const LoginSignup = () => {
             <div className="inputs">
                 {action==="Login"?<div></div> : <div className="input">
                     <img src={user_icon} alt="User icon" />
+                    
                     <input type="text" placeholder="Username" />
                 </div>}
   
